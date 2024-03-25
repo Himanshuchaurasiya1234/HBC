@@ -15,8 +15,7 @@ Researched and evaluated different libraries for background job processing and s
 Utilized goroutines and channels in Golang to execute background tasks asynchronously.
 Implemented error handling mechanisms to handle failures gracefully and ensure task reliability.
 
-### Task 2: 
-RESTful API with Pagination and Search Functionality
+### Task 2: RESTful API with Pagination and Search Functionality 
 In this task, we implemented a RESTful API that supports paginated data retrieval and search functionality based on specific criteria.
 
 Challenges Faced:
