@@ -1,4 +1,4 @@
-# Install dependencies: cd project_name -> go mod tidy
+# Install dependencies #: cd project_name -> go mod tidy
 # To build the project, run the following command: go build
 # run the file: go run main.go
 
@@ -9,6 +9,7 @@ Challenges Faced:
 Choosing a suitable library for background job processing.
 Implementing asynchronous task execution without blocking the main thread.
 Ensuring reliable task execution and error handling.
+
 Solutions:
 Researched and evaluated different libraries for background job processing and selected the "go-workers" library for its simplicity and reliability.
 Utilized goroutines and channels in Golang to execute background tasks asynchronously.
