@@ -1,8 +1,8 @@
 ### Install dependencies : cd project_name -> go mod tidy
-# To build the project, run the following command: go build
-# run the file: go run main.go
+### To build the project, run the following command: go build
+### run the file: go run main.go
 
-Task 1: RESTful API with Background Jobs
+### Task 1: RESTful API with Background Jobs
 This task involved developing a RESTful API capable of handling long-running tasks, such as sending emails or processing large data sets, using background jobs.
 
 Challenges Faced:
@@ -14,18 +14,22 @@ Solutions:
 Researched and evaluated different libraries for background job processing and selected the "go-workers" library for its simplicity and reliability.
 Utilized goroutines and channels in Golang to execute background tasks asynchronously.
 Implemented error handling mechanisms to handle failures gracefully and ensure task reliability.
-Task 2: RESTful API with Pagination and Search Functionality
+
+### Task 2: 
+RESTful API with Pagination and Search Functionality
 In this task, we implemented a RESTful API that supports paginated data retrieval and search functionality based on specific criteria.
 
 Challenges Faced:
 Designing an efficient pagination mechanism to handle large datasets.
 Implementing search functionality that is flexible and scalable.
 Optimizing query performance to ensure fast response times.
+
 Solutions:
 Designed a pagination mechanism using query parameters to specify the page number and page size, allowing users to navigate through large datasets easily.
 Implemented search functionality by filtering data based on specific criteria provided by the user.
 Utilized indexing and caching techniques to optimize query performance and reduce response times.
-Task 3: RESTful API Integration with External Service
+
+### Task 3: RESTful API Integration with External Service
 The third task involved building a RESTful API that integrates with a third-party service, such as a weather API. We demonstrated how to interact with the external service API and utilize the retrieved data within our application.
 
 Challenges Faced:
